@@ -1,0 +1,361 @@
+/* PARA ORDENADORES Y PANTALLAS*/
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+/* TIPOGRAFÍAS */
+.ubuntu-light {
+    font-weight: 300;
+    font-style: normal;
+}
+
+.ubuntu-regular {
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ubuntu-medium {
+    font-weight: 500;
+    font-style: normal;
+}
+
+.ubuntu-bold {
+    font-weight: 700;
+    font-style: normal;
+}
+
+.ubuntu-light-italic {
+    font-weight: 300;
+    font-style: italic;
+}
+
+.ubuntu-regular-italic {
+    font-weight: 400;
+    font-style: italic;
+}
+
+.ubuntu-medium-italic {
+    font-weight: 500;
+    font-style: italic;
+}
+
+.ubuntu-bold-italic {
+    font-weight: 700;
+    font-style: italic;
+}
+
+/* ESTRUCTURA GENERAL */
+* {
+    font-family: "Ubuntu", sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 48px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 20px;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+}
+
+
+.secciones {
+    text-align: center;
+    width: 80%;
+}
+
+.auto {
+    padding: 4% 8%;
+}
+
+.servicios {
+    padding: 0% 0% 2%;
+}
+
+.descripcion {
+    font-size: medium;
+    color: rgb(116, 114, 114);
+}
+
+
+
+.placas {
+    width: 100%;
+    height: 100%;
+}
+
+
+.trabajador {
+    width: 100%;
+    height: 100%;
+}
+
+.h3_style {
+    padding-top: 20px;
+    text-align: none;
+    text-align: left;
+}
+
+
+/*NAVEGADOR*/
+
+.fav {
+    width: 85px;
+    height: 85px;
+    padding: 12px;
+}
+
+.nav {
+    background-color: rgb(255, 255, 255);
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+a {
+    display: flex;
+    flex-direction: row;
+    color: rgb(169, 227, 33);
+    text-decoration: none;
+    align-items: center;
+    font-size: 22px;
+    height: 55%;
+    padding: 10px 22px;
+}
+
+a:hover {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    /*igual*/
+    color: rgb(255, 255, 255);
+    background-color: rgb(169, 227, 33);
+    height: 58%;
+}
+
+
+/*CABECERA*/
+
+.img_head {
+    height: 78vh;
+    width: 100%;
+}
+
+/*BARRA DE COLOR*/
+
+.gradient-band {
+    width: 75%;
+    margin: auto;
+    height: 10px;
+    background: linear-gradient(90deg,
+            rgba(235, 61, 13, 1) 0%,
+            rgba(255, 132, 0, 1) 25%,
+            rgba(241, 184, 10, 1) 50%,
+            rgba(233, 224, 18, 1) 75%,
+            rgba(141, 226, 60, 1) 100%);
+}
+
+/*IMÁGENES*/
+
+.img_placas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    padding: 3%;
+}
+
+
+
+/* FORMULARIO */
+.form-container {
+    background: linear-gradient(90deg,
+            rgba(235, 61, 13, 1) 0%,
+            rgba(255, 132, 0, 1) 25%,
+            rgba(241, 184, 10, 1) 50%,
+            rgba(233, 224, 18, 1) 75%,
+            rgba(141, 226, 60, 1) 100%);
+    padding: 20px;
+    border-radius: 8px;
+    width: 88%;
+    height: 80%;
+    margin: auto;
+}
+
+form {
+    padding: 45px;
+    border-radius: 8px;
+}
+
+.form-group {
+    width: 60%;
+    margin-bottom: 15px;
+    margin: auto;
+}
+
+label {
+    display: block;
+    margin-bottom: -5px;
+    color: rgb(59, 59, 59);
+}
+
+.nom,
+.ap,
+.em {
+    border: none;
+    border-bottom: 2px solid rgb(59, 59, 59);
+}
+
+.men {
+    height: 150px;
+    margin-top: 2%;
+    border: 2px solid rgb(59, 59, 59);
+
+}
+
+
+
+input,
+textarea {
+    width: 100%;
+    margin: auto;
+    background: none;
+    margin-bottom: 25px;
+    display: block;
+
+}
+
+
+
+.boton_contacto {
+    width: 60%;
+    margin-bottom: 15px;
+    padding: 10px 15px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: auto;
+    text-align: center;
+    display: block;
+}
+
+.boton_contacto:hover {
+    background: linear-gradient(90deg,
+            rgba(235, 61, 13, 1) 0%,
+            rgba(255, 132, 0, 1) 25%,
+            rgba(241, 184, 10, 1) 50%,
+            rgba(233, 224, 18, 1) 75%,
+            rgba(141, 226, 60, 1) 100%);
+}
+
+
+::placeholder {
+    color: rgb(59, 59, 59);
+}
+
+.error-message {
+    color: white;
+    margin-bottom: 10px;
+    display: none;
+    text-align: center;
+}
+
+
+
+
+
+/* DISPOSICIÓN */
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row-columna,
+header {
+    flex-direction: column;
+}
+
+.row-centrado {
+    margin: auto;
+    align-items: flex-start;
+}
+
+
+
+/* MÁRGENES */
+.espacio-xy-100 {
+    padding: 100px;
+}
+
+.margin-top-100 {
+    margin-top: 100px;
+}
+
+.margin-bottom-100 {
+    margin-bottom: 100px;
+}
